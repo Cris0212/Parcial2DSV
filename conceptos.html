@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conceptos — IA aplicada al desarrollo de software</title>
-  <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Historia — Desarrollo de Videojuegos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-<header id="header">
-  <h1>IA aplicada al desarrollo de software</h1>
-  <nav id="navbar" aria-label="Principal">
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="conceptos.html" class="active">Conceptos</a></li>
-      <li><a href="casos.html">Casos</a></li>
-      <li><a href="herramientas.html">Herramientas</a></li>
-      <li><a href="empresas.html">Empresas</a></li>
-      <li><a href="etica.html">Ética</a></li>
-      <li><a href="accesibilidad.html">Accesibilidad</a></li>
-      <li><a href="video.html">Video</a></li>
-      <li><a href="sobre.html">Sobre mí</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
+  <header id="header">
+    <h1>Desarrollo de Videojuegos</h1>
+    <nav id="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="conceptos.html" class="active">Historia</a>
+      <a href="herramientas.html">Herramientas</a>
+      <a href="empresas.html">Empresas</a>
+      <a href="video.html">Videos</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+    </nav>
+  </header>
 
-<main id="contenido">
-  <article class="card">
-    <h2>De la lógica al aprendizaje</h2>
-    <p>La <strong>IA en ingeniería de software</strong> combina <em>Machine Learning</em> y <em>Deep Learning</em> para asistir tareas del ciclo de vida del software (SDLC), desde requisitos hasta mantenimiento.</p>
-    <div class="grid grid-2">
-      <section>
-        <h3>Tipos de modelos</h3>
-        <ul>
-          <li><strong>Supervisados:</strong> clasificación de defectos, predicción de esfuerzo/tiempo.</li>
-          <li><strong>No supervisados:</strong> agrupamiento de issues, detección de anomalías.</li>
-          <li><strong>Aprendizaje profundo (DL):</strong> LLM para explicación y generación de código.</li>
-        </ul>
-      </section>
-      <section>
-        <h3>Métricas clave</h3>
-        <ul>
-          <li><strong>Precisión / Recall / F1:</strong> calidad en detección (errores, vulnerabilidades).</li>
-          <li><strong>MAE / RMSE:</strong> exactitud en estimaciones.</li>
-          <li><strong>Cobertura efectiva:</strong> impacto real de las pruebas.</li>
-          <li><strong>MTTD / MTTR:</strong> tiempos de detección y reparación en Ops.</li>
-        </ul>
-      </section>
+  <main>
+    <section class="intro">
+      <h2>De los laboratorios a los mundos persistentes</h2>
+      <p>
+        La historia del videojuego es la convergencia de avances tecnológicos, diseño interactivo y cultura popular.
+        Desde los primeros experimentos académicos hasta los ecosistemas online actuales, cada década aportó
+        nuevas formas de jugar y crear.
+      </p>
+    </section>
+
+    <!-- Contenedor de imagen tipo FRAME -->
+    <figure class="media media-frame">
+      <img src="IMG/historia.jpg" alt="Línea del tiempo de consolas, arcades y PC">
+      <figcaption><code>historia.jpg</code></figcaption>
+    </figure>
+
+    <section class="grid">
+      <article class="card">
+        <h3>1950–1979: Fundaciones</h3>
+        <p>
+          <em>Tennis for Two</em> (1958) y <em>Spacewar!</em> (1962) definieron la interacción digital temprana.
+          Con <em>Pong</em> (1972) llegó el boom comercial arcade; Magnavox Odyssey y Atari abrieron el camino
+          a las consolas domésticas.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>1980–1989: Edad de oro del arcade</h3>
+        <p>
+          Explosión de salones recreativos y personajes icónicos: <em>Pac-Man</em>, <em>Donkey Kong</em>,
+          <em>Space Invaders</em>. Nintendo y SEGA consolidan consolas y franquicias.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>1990–1999: Salto al 3D</h3>
+        <p>
+          PlayStation, Nintendo 64 y el PC popularizan las 3D. Nacen géneros y técnicas de diseño modernas:
+          FPS, aventuras cinemáticas, mundos semiabiertos, CD-ROM, música digital.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>2000–2009: Online y HD</h3>
+        <p>
+          Consolas conectadas, MMORPG, marketplaces digitales, motores maduros. Aparece el juego móvil y
+          se profesionalizan el QA, telemetría y servicios “live”.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>2010–hoy: Indies, VR/AR y servicio</h3>
+        <p>
+          Democratización con Unity/Unreal, auge indie, eSports, streaming y cloud. Experiencias VR/AR y
+          diseños accesibles amplían públicos y posibilidades narrativas.
+        </p>
+      </article>
+    </section>
+
+    <div class="center">
+      <a class="btn btn-outline pill-link" href="historia-1.html">▶ Ver línea del tiempo detallada (5 diapositivas)</a>
     </div>
-  </article>
 
-  <article class="card">
-    <h2>IA dentro del SDLC</h2>
-    <ul>
-      <li><strong>Requisitos:</strong> ambigüedades y conflictos.</li>
-      <li><strong>Diseño:</strong> patrones y complejidad.</li>
-      <li><strong>Implementación:</strong> asistentes de código, refactorización.</li>
-      <li><strong>Pruebas:</strong> generación y priorización basada en riesgo.</li>
-      <li><strong>Despliegue/Operaciones:</strong> predicción de fallas, correlación de eventos.</li>
-      <li><strong>Mantenimiento:</strong> clasificación/dedupe de issues y recomendación de expertos.</li>
-      <li><strong>Seguridad:</strong> SAST/DAST, dependencias y secretos.</li>
-    </ul>
-  </article>
-</main>
+  </main>
 
-<footer id="footer">
-  <p>© 2025 — IA aplicada al desarrollo de software — Parcial 2</p>
-  <p>Universidad Tecnológica de Panamá — Desarrollo de Software V</p>
-</footer>
+  <footer id="footer">
+    <p>© 2025 RetroArcade — Historia</p>
+  </footer>
 </body>
 </html>
