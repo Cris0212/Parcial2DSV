@@ -1,52 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Inicio — Desarrollo de Videojuegos</title>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desarrollo de Videojuegos - Retro Arcade</title>
   <link rel="stylesheet" href="css/estilos.css">
-
 </head>
-<body class="crt">
+<body>
 
   <header id="header">
     <h1>Desarrollo de Videojuegos</h1>
-    <nav id="navbar" aria-label="Principal">
-      <ul>
-        <li><a href="index.html" class="active">Inicio</a></li>
-        <li><a href="conceptos.html">Historia</a></li>
-        <li><a href="casos.html">Casos</a></li>
-        <li><a href="herramientas.html">Herramientas</a></li>
-        <li><a href="empresas.html">Empresas</a></li>
-        <li><a href="etica.html">Ética</a></li>
-        <li><a href="accesibilidad.html">Accesibilidad</a></li>
-        <li><a href="video.html">Video</a></li>
-        <li><a href="sobre-mi.html">Sobre mí</a></li>
-      </ul>
+    <nav id="navbar">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="conceptos.html">Historia</a>
+      <a href="herramientas.html">Herramientas</a>
+      <a href="empresas.html">Empresas</a>
+      <a href="video.html">Videos</a>
+      <a href="sobre-mi.html">Sobre mí</a>
     </nav>
   </header>
 
-<main id="contenido">
-
-  <section class="card hero">
-    <h2>¡Pulsa Start! Bienvenido al mundo del Desarrollo de Videojuegos</h2>
-    <p>Este sitio recorre la historia, las herramientas, los estudios y los desafíos del desarrollo de videojuegos, desde los primeros arcades hasta la realidad virtual y los mundos abiertos modernos.</p>
-    <figure class="banner">
-      <img src="IMG/hero-index.jpg" alt="Hero retro arcade con neones y sprites pixelados">
-      <figcaption>Imagen sugerida: “retro arcade neon background” — <code>hero-index.jpg</code></figcaption>
+  <main>
+    <figure class="hero-photo">
+      <img src="IMG/hero-index.jpg" alt="Setup retro con monitor mostrando un videojuego clásico de Mario Bros">
+      <figcaption>Setup retro con monitor mostrando un videojuego clásico de Mario Bros <code></code></figcaption>
     </figure>
-    <div class="grid grid-3 mosaico">
-      <figure class="card"><img src="IMG/historia.jpg" alt="Colage de consolas clásicas"><figcaption>Historia — <code>historia.jpg</code></figcaption></figure>
-      <figure class="card"><img src="IMG/motores.jpg" alt="Logos de motores de juego"><figcaption>Motores — <code>motores.jpg</code></figcaption></figure>
-      <figure class="card"><img src="IMG/sagas.jpg" alt="Sagas icónicas de videojuegos"><figcaption>Sagas — <code>sagas.jpg</code></figcaption></figure>
-    </div>
-  </section>
 
-</main>
+    <section class="intro">
+      <h2>Bienvenido al mundo del desarrollo de videojuegos</h2>
+      <p>Explora la historia, evolución, herramientas y protagonistas detrás de la creación de los videojuegos. Desde los primeros arcades hasta los motores modernos, descubre cómo la tecnología y la creatividad se unen para dar vida a los mundos digitales que tanto disfrutamos.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Historia</h3>
+        <p>Conoce cómo surgieron los primeros videojuegos y cómo evolucionaron las consolas, los géneros y la industria global del entretenimiento interactivo.</p>
+        <a href="conceptos.html" class="btn">Explorar</a>
+      </article>
+
+      <article class="card">
+        <h3>Herramientas</h3>
+        <p>Descubre los motores, lenguajes y plataformas que permiten a los desarrolladores crear experiencias interactivas únicas.</p>
+        <a href="herramientas.html" class="btn">Ver más</a>
+      </article>
+
+      <article class="card">
+        <h3>Empresas</h3>
+        <p>Desde Nintendo y Atari hasta Epic Games y Unity Technologies, conoce a los pioneros y líderes del desarrollo de videojuegos.</p>
+        <a href="empresas.html" class="btn">Descubrir</a>
+      </article>
+    </section>
+  </main>
 
   <footer id="footer">
-    <p>© 2025 — Desarrollo de Videojuegos — Parcial 2 - Cristher Valdés</p>
+    <p>© 2025 RetroArcade - Proyecto sobre el Desarrollo de Videojuegos - Por: Cristher Valdés</p>
   </footer>
 
 </body>
